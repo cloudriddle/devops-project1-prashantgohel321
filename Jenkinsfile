@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: '[https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)'
+                git branch: 'main', url: 'https://github.com/cloudriddle/devops-project1-prashantgohel321.git'
             }
         }
         stage('Build Docker Image') {
